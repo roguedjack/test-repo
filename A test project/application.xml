@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+	
+	<id>rj.testproject.Atestproject</id> 
+	<versionNumber>1.0</versionNumber> 
+	<filename>Atestproject</filename> 
+	
+	<name>A test project</name> 
+	<description></description> 
+	<copyright></copyright> 
+	
+	<initialWindow> 
+		<title>A test project</title> 
+		<content>Atestproject.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+		<!-- rj we must set these options -->
+		<renderMode>direct</renderMode>
+		<depthAndStencil>true</depthAndStencil>
+		<!-- rj end -->
+	</initialWindow> 
+	
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
